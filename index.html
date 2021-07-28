@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guest List</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h2>Guest List</h2>
+        <br>
+        <br>
+        <input type="text" placeholder="Name of the Guest" id="guest_name">
+        <br>
+        <button class="btn btn-success" onclick="submit()" id="submit_button">Submit</button>
+        <br>
+        <div id="names">     
+        </div>
+        <br>
+        <hr>
+        <div id="sorts">
+        </div>
+        <br>
+        <button class="btn btn-success" onclick="sorting()" id="sort_button">Sort</button>
+        <br>
+        <hr>
+        <br>
+        <span><input type="text" placeholder="Search" id="search"></span>
+        <button class="btn btn-success" onclick="search()" id="search_button">Search</button>
+    </body>
+</html>
